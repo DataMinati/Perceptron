@@ -6,7 +6,7 @@ import random
 class Perceptron(object):
     """docstring for Perceptron"""
     def __init__(self):
-        super(Perceptron, self).__init__()
+        
         self.w = [random.random() * 2 - 1 for _ in xrange(2)] # weights
         self.learningRate = 0.1
 
